@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MathJax Example</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+  <body>
+    <h1>Enter an equation:</h1>
+    <input type="text" id="equationInput">
+    <button onclick="displayEquation()">Display Equation</button>
+    <div id="equation"></div>
+    <script>
+      function displayEquation() {
+        var equationText = document.getElementById("equationInput").value;
+        var equationHTML = "\\(" + equationText + "\\)";
+        document.getElementById("equation").innerHTML = equationHTML;
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "equation"]);
+      }
+    </script>
+  </body>
+</html>
