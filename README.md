@@ -11,8 +11,8 @@ sample input :
       \end{align*}
       
 Output :
-      
-      <img width="186" alt="image" src="https://user-images.githubusercontent.com/56159302/227110755-86f8b088-717c-4dd6-893f-9014a2ef0f93.png">
+<img width="186" alt="image" src="https://user-images.githubusercontent.com/56159302/227110831-47b0f4d8-c4a0-4788-9fa9-1a0862a6acd3.png">
+
 
       
 
